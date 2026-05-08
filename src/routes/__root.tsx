@@ -73,21 +73,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "गुरुमाऊली अ‍ॅग्रो एजन्सी" },
-      { name: "description", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी
-Trusted Agro Products for Better Farming
-उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने. Quality agricultural solutions for h" },
+      { name: "description", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी — Trusted Agro Products for Better Farming. उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने." },
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी" },
-      { property: "og:description", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी
-Trusted Agro Products for Better Farming
-उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने. Quality agricultural solutions for h" },
+      { property: "og:description", content: "Trusted Agro Products for Better Farming. उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी" },
-      { name: "twitter:description", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी
-Trusted Agro Products for Better Farming
-उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने. Quality agricultural solutions for h" },
+      { name: "twitter:description", content: "Trusted Agro Products for Better Farming. उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने." },
       { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe" },
       { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe" },
     ],
