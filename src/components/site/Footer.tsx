@@ -32,8 +32,7 @@ export function Footer() {
         <div>
           <h4 className="font-semibold text-foreground">Contact</h4>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> <a href="tel:9322056833">9322056833</a></li>
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> <a href="tel:9322056833">9322056833</a></li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> <a href="tel:9322056833">+91 93220 56833</a></li>
             <li className="flex items-center gap-2"><MessageCircle className="h-4 w-4 text-primary" /> <a href="https://wa.me/919322056833">WhatsApp</a></li>
             <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 text-primary" /> Local Agro Market Area</li>
           </ul>
