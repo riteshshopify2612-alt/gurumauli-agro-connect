@@ -85,8 +85,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी" },
       { name: "twitter:description", content: siteDescription },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe" },
+      {
+        property: "og:image",
+        content:
+          "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe",
+      },
     ],
     links: [
       {
