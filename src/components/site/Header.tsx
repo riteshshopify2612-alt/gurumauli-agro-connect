@@ -37,7 +37,7 @@ export function Header() {
           ))}
         </nav>
         <a
-          href="tel:9637065038"
+          href="tel:9322056833"
           className="hidden rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-soft)] transition hover:bg-primary-glow md:inline-flex"
         >
           📞 Call Now
@@ -64,10 +64,10 @@ export function Header() {
               </Link>
             ))}
             <a
-              href="tel:9637065038"
+              href="tel:9322056833"
               className="mt-2 rounded-full bg-primary px-4 py-3 text-center text-sm font-semibold text-primary-foreground"
             >
-              📞 Call Now — 9637065038
+              📞 Call Now — 9322056833
             </a>
           </nav>
         </div>
