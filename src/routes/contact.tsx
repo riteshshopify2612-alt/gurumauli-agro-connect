@@ -25,10 +25,9 @@ function ContactPage() {
         </div>
       </section>
 
-      <section className="container mx-auto grid gap-6 px-4 py-12 md:grid-cols-3">
+      <section className="container mx-auto grid gap-6 px-4 py-12 md:grid-cols-2">
         {[
-          { icon: Phone, label: "Call Primary", value: PHONE_PRIMARY, href: `tel:${PHONE_PRIMARY}` },
-          { icon: Phone, label: "Call Secondary", value: PHONE_SECONDARY, href: `tel:${PHONE_SECONDARY}` },
+          { icon: Phone, label: "Call Us", value: `+91 ${PHONE_PRIMARY}`, href: `tel:${PHONE_PRIMARY}` },
           { icon: MessageCircle, label: "WhatsApp", value: "Chat with us", href: WHATSAPP_URL },
         ].map(({ icon: Icon, label, value, href }) => (
           <a key={label} href={href} target={label === "WhatsApp" ? "_blank" : undefined} rel="noopener" className="group rounded-2xl border border-border bg-card p-6 text-center shadow-[var(--shadow-soft)] transition hover:shadow-[var(--shadow-card)]">
