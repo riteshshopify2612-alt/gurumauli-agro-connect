@@ -41,6 +41,6 @@ export const PRODUCTS = [
   },
 ];
 
-export const PHONE_PRIMARY = "9637065038";
+export const PHONE_PRIMARY = "9322056833";
 export const PHONE_SECONDARY = "9322056833";
-export const WHATSAPP_URL = "https://wa.me/919637065038?text=Hello%20Gurumauli%20Agro%2C%20I%20would%20like%20to%20enquire%20about%20your%20products.";
+export const WHATSAPP_URL = "https://wa.me/919322056833?text=Hello%20Gurumauli%20Agro%2C%20I%20would%20like%20to%20enquire%20about%20your%20products.";
