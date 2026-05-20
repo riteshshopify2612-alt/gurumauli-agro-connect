@@ -95,17 +95,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe",
       },
-      { name: "description", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी
-Trusted Agro Products for Better Farming
-उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने. Quality agricultural solutions for h" },
-      { property: "og:description", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी
-Trusted Agro Products for Better Farming
-उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने. Quality agricultural solutions for h" },
-      { name: "twitter:description", content: "गुरुमाऊली अ‍ॅग्रो एजन्सी
-Trusted Agro Products for Better Farming
-उत्तम पीक आणि भरघोस उत्पादनासाठी दर्जेदार कृषी उत्पादने. Quality agricultural solutions for h" },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe" },
     ],
     links: [
       {
