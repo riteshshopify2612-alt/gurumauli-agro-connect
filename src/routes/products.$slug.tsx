@@ -21,11 +21,6 @@ export const Route = createFileRoute("/products/$slug")({
       ],
     };
   },
-  loader: ({ params }): { product: Product } => {
-    const product = PRODUCTS.find((p) => p.slug === params.slug);
-    if (!product) throw notFound();
-    return { product };
-  },
   notFoundComponent: () => (
     <SiteLayout>
       <div className="container mx-auto px-4 py-20 text-center">
@@ -41,6 +36,8 @@ function ProductDetailPage() {
   const { slug } = Route.useParams();
   const product = PRODUCTS.find((p) => p.slug === slug);
   if (!product) throw notFound();
+
+  return (
     <SiteLayout>
       <section className="container mx-auto px-4 py-8">
         <Link to="/products" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-primary">
