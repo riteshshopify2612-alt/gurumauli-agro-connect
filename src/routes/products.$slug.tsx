@@ -59,7 +59,7 @@ function ProductDetailPage() {
 
           {product.benefits && product.benefits.length > 0 && (
             <ul className="mt-6 grid gap-2 sm:grid-cols-2">
-              {product.benefits.map((b) => (
+              {product.benefits.map((b: string) => (
                 <li key={b} className="flex items-center gap-2 text-sm text-foreground">
                   <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10 text-primary">
                     <Check className="h-3.5 w-3.5" />
