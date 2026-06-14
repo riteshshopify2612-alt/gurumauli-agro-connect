@@ -95,11 +95,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/95f54b48-0080-469a-9194-963e9c90d5fe",
       },
-      { name: "description", content: "Gurumauli Agro Connect is a website for an agricultural business offering fertilizers, seeds, and farming solutions." },
-      { property: "og:description", content: "Gurumauli Agro Connect is a website for an agricultural business offering fertilizers, seeds, and farming solutions." },
-      { name: "twitter:description", content: "Gurumauli Agro Connect is a website for an agricultural business offering fertilizers, seeds, and farming solutions." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ffe5f2c0-0a88-4595-822f-b1d72dde297f/id-preview-e8262e4e--abd0b9d3-b411-4e93-8122-d17f1646a285.lovable.app-1779294424322.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ffe5f2c0-0a88-4595-822f-b1d72dde297f/id-preview-e8262e4e--abd0b9d3-b411-4e93-8122-d17f1646a285.lovable.app-1779294424322.png" },
     ],
     links: [
       {
