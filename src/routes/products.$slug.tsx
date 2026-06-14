@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
-import { PRODUCTS, whatsappOrderUrl, PHONE_PRIMARY, type Product } from "@/lib/site-data";
+import { PRODUCTS, whatsappOrderUrl, PHONE_PRIMARY } from "@/lib/site-data";
 import { MessageCircle, Phone, ArrowLeft, Check } from "lucide-react";
 
 export const Route = createFileRoute("/products/$slug")({
@@ -38,8 +38,9 @@ export const Route = createFileRoute("/products/$slug")({
 });
 
 function ProductDetailPage() {
-  const { product } = Route.useLoaderData();
-  return (
+  const { slug } = Route.useParams();
+  const product = PRODUCTS.find((p) => p.slug === slug);
+  if (!product) throw notFound();
     <SiteLayout>
       <section className="container mx-auto px-4 py-8">
         <Link to="/products" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-primary">
