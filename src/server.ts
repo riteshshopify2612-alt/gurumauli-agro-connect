@@ -60,9 +60,9 @@ async function normalizeCatastrophicSsrResponse(
 }
 
 export default createServerEntry({
-  async fetch(request: Request, env: unknown, ctx: unknown) {
+  async fetch(request, opts) {
     try {
-      const response = await handler.fetch(request, env, ctx);
+      const response = await handler.fetch(request, opts);
       return await normalizeCatastrophicSsrResponse(response);
     } catch (error) {
       console.error(error);
