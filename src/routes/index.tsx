@@ -94,15 +94,15 @@ function Home() {
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {PRODUCTS.map((p) => (
-              <article key={p.title} className="group overflow-hidden rounded-2xl bg-card shadow-[var(--shadow-soft)] transition hover:shadow-[var(--shadow-card)]">
-                <div className="aspect-[4/3] overflow-hidden">
+              <article key={p.slug} className="group overflow-hidden rounded-2xl bg-card shadow-[var(--shadow-soft)] transition hover:shadow-[var(--shadow-card)]">
+                <Link to="/products/$slug" params={{ slug: p.slug }} className="block aspect-[4/3] overflow-hidden">
                   <img src={p.image} alt={p.title} loading="lazy" className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
-                </div>
+                </Link>
                 <div className="p-5">
                   <h3 className="font-display text-lg font-bold text-foreground">{p.title} <span className="text-sm font-medium text-muted-foreground">/ {p.mr}</span></h3>
                   <p className="mt-2 text-sm text-muted-foreground">{p.desc}</p>
-                  <Link to="/inquiry" className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary hover:gap-2 transition-all">
-                    Inquire <ArrowRight className="h-4 w-4" />
+                  <Link to="/products/$slug" params={{ slug: p.slug }} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary hover:gap-2 transition-all">
+                    View Details <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
               </article>
